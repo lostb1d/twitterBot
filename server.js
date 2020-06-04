@@ -13,14 +13,14 @@ var time = h + ':' + 'm' +':' +s;
 checkTime(time);
 
 function checkTime(time){
-    if(time >= '8:00:00' && time <='8:10:00'){
+    if(time >= '7:00:00' && time <='7:30:00'){
         var status = "Ajit Mijar | Unjusticed for " +  dateCalculator("07/14/2016") + " Days #JusticeForAjit #IntercasteMarriage #StopCasteDiscrimination";
         tweetUpdates(status);
     }
-    else if(time >= '10:00:00' && time <= '10:10:00'){ 
+    else if(time >= '10:00:00' && time <= '10:30:00'){ 
         var status = "Navaraj BK, Ganesh Budha , Sandip BK , Lokendra Sunar , Govinda Shahi , Tikaram Sunar | Unjusticed for ,  " +  dateCalculator("07/27/2018") + " Days #StopCasteDiscrimination";
         tweetUpdates(status);}
-    else if(time >= '19:00:00' && time <= '19:10:00'){ 
+    else if(time >= '19:00:00' && time <= '19:30:00'){ 
         var status = "Nirmala Panta | Unjusticed for " +  dateCalculator("07/27/2018") + " Days #JusticeForNirmala #RapeAndMurder #KillRapist ";
         tweetUpdates(status);}
     else { console.log("No Tweets Now !!");}
