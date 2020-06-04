@@ -18,7 +18,7 @@ function checkTime(time){
         tweetUpdates(status);
     }
     else if(time >= '10:00:00' && time <= '10:30:00'){ 
-        var status = "Navaraj BK, Ganesh Budha , Sandip BK , Lokendra Sunar , Govinda Shahi , Tikaram Sunar | Unjusticed for ,  " +  dateCalculator("07/27/2018") + " Days #StopCasteDiscrimination";
+        var status = "Navaraj BK, Ganesh Budha , Sandip BK , Lokendra Sunar , Govinda Shahi , Tikaram Sunar | Unjusticed for ,  " +  dateCalculator("05/24/2020") + " Days #StopCasteDiscrimination";
         tweetUpdates(status);}
     else if(time >= '19:00:00' && time <= '19:30:00'){ 
         var status = "Nirmala Panta | Unjusticed for " +  dateCalculator("07/27/2018") + " Days #JusticeForNirmala #RapeAndMurder #KillRapist ";
