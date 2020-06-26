@@ -1,7 +1,7 @@
 {
   "name": "twitterbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "twit": "^2.2.11"
+  },
+  "engines": {
+    "node" : "10.x"
   }
 }
