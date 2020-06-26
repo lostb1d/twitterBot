@@ -8,20 +8,22 @@ var fs = require('fs'),
 var d= new Date();
 var h = d.getHours();
 var m = d.getMinutes();
-var s = d.getSeconds();
-var time = h + ':' + 'm' +':' +s;
+
+var time = h*60 + m;
+
 checkTime(time);
 
 function checkTime(time){
-    if(time >= '7:00:00' && time <='7:30:00'){
-        var status = "Ajit Mijar | Unjusticed for " +  dateCalculator("07/14/2016") + " Days #JusticeForAjit #IntercasteMarriage #StopCasteDiscrimination";
+    console.log(time);
+    if(time >= 420 && time <= 450){
+        var status = "Ajit Mijar | Unjusticed for " +  dateCalculator("07/14/2016") + " Days #JusticeForAjit #IntercasteMarriage #StopCasteDiscrimination #TwitterBot";
         tweetUpdates(status);
     }
-    else if(time >= '10:00:00' && time <= '10:30:00'){ 
-        var status = "Navaraj BK, Ganesh Budha , Sandip BK , Lokendra Sunar , Govinda Shahi , Tikaram Sunar | Unjusticed for ,  " +  dateCalculator("05/24/2020") + " Days #StopCasteDiscrimination";
+    else if(time >= 600 && time <= 630){ 
+        var status = "Navaraj BK, Ganesh Budha , Sandip BK , Lokendra Sunar , Govinda Shahi , Tikaram Sunar | Unjusticed for ,  " +  dateCalculator("05/24/2020") + " Days #StopCasteDiscrimination #TwitterBot";
         tweetUpdates(status);}
-    else if(time >= '19:00:00' && time <= '19:30:00'){ 
-        var status = "Nirmala Panta | Unjusticed for " +  dateCalculator("07/27/2018") + " Days #JusticeForNirmala #RapeAndMurder #KillRapist ";
+    else if(time >= 1200 && time <= 1230 ){ 
+        var status = "Nirmala Panta | Unjusticed for " +  dateCalculator("07/27/2018") + " Days #JusticeForNirmala #RapeAndMurder #KillRapist #TwitterBot";
         tweetUpdates(status);}
     else { console.log("No Tweets Now !!");}
     
